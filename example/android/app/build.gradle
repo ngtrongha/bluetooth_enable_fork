@@ -48,6 +48,8 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+    
+    namespace 'com.hui.bluetooth_enable_example'
 }
 
 flutter {
