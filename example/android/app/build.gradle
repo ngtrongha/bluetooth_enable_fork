@@ -25,6 +25,7 @@ apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
+    namespace 'com.hui.bluetooth_enable_example'
     compileSdkVersion 33
 
     lintOptions {
@@ -49,7 +50,6 @@ android {
         }
     }
     
-    namespace 'com.hui.bluetooth_enable_example'
 }
 
 flutter {
